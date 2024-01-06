@@ -12,20 +12,30 @@
 
 .btn-primary {
     background-color: #FD6E0A;
-    border: 0;
+    border: none;
     padding: 15px 35px;
     font-size: 20px;
     font-weight: 700;
     color: #FFF;
     border-radius: 5px;
 }
+.btn{
+    border: 1px solid;
+    padding: 15px 35px;
+    color: #FD6E0A;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color:#E6E6E6;
+    border-color: #FD6E0A;
+}
 
 /* header section style */
 .header-section {
     background: #FFF8F3;
-    background-image: url('/images/header_bg.png');
+    background-image: url('/images/header_bg.png'), url('/images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 }
 
 .banner {
